@@ -129,7 +129,7 @@
 
     $("#readme").html(marked(readme));
 
-    $.get("https://github.com/jaymine/TCP-eventbus-client-Python/raw/master/readme.toc.md", function (toc) {
+    $.get("https://raw.githubusercontent.com/jaymine/TCP-eventbus-client-Python/master/README.toc.md", function (toc) {
       $("#sidebar").html(marked(toc));
       // make sidebar sticky when it hits the top of the viewport
       var $sidebar = $("#sidebar");
