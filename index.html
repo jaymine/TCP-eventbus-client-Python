@@ -120,7 +120,7 @@
   </div>
 </footer>
 <script>
-  $.get("https://raw.githubusercontent.com/jaymine/TCP-eventbus-client-Python/master/README.md", function (readme) {
+  $.get("https://raw.githubusercontent.com/jaymine/TCP-eventbus-client-Python/gh-pages/doc.md", function (readme) {
     marked.setOptions({
       highlight: function (code) {
         return hljs.highlightAuto(code).value;
@@ -129,7 +129,7 @@
 
     $("#readme").html(marked(readme));
 
-    $.get("https://raw.githubusercontent.com/jaymine/TCP-eventbus-client-Python/master/README.toc.md", function (toc) {
+    $.get("https://raw.githubusercontent.com/jaymine/TCP-eventbus-client-Python/gh-pages/doc.toc.md", function (toc) {
       $("#sidebar").html(marked(toc));
       // make sidebar sticky when it hits the top of the viewport
       var $sidebar = $("#sidebar");
