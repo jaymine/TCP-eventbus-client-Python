@@ -110,7 +110,7 @@ ReplyHandlers will be discussed under send.
 
 Message can be sent in different ways.
 
-	#jsonObject -body
+	
 	body={'msg':'get time',}
 	eb.send('Get',body)
 	
