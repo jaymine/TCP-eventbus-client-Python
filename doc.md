@@ -99,11 +99,11 @@ to create,
 	do.addReplyAddress('Date')
 	do.setTimeInterval(10) 
 
--DeliveryOption.addHeader(key, value) - add headers to message
--DeliveryOption.deleteHeader(key, value) - delete headers to message
--DeliveryOption.addReplyAddress(address) - add reply address
--DeliveryOption.deleteReplyAddress() - delete reply address
--DeliveryOption.setTimeInterval(seconds)  - set time interval for replyHandlers.
+- DeliveryOption.addHeader(key, value) - add headers to message
+- DeliveryOption.deleteHeader(key, value) - delete headers to message
+- DeliveryOption.addReplyAddress(address) - add reply address
+- DeliveryOption.deleteReplyAddress() - delete reply address
+- DeliveryOption.setTimeInterval(seconds)  - set time interval for replyHandlers.
 ReplyHandlers will be discussed under send.
 
 ### Send ###
@@ -146,7 +146,7 @@ You must close the connection end of the program. If not program wont close at t
 
 	eb.closeConnection(2)
 
-closeConnection(time) - time in seconds. After that connection will be closed.
+- closeConnection(time) - time in seconds. After that connection will be closed.
 
 ## Examples ###
 
